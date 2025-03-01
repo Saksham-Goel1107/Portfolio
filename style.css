@@ -1,4 +1,3 @@
-@import url('https://fonts.googleapis.com/css2?family=Liter&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Urbanist:ital,wght@0,100..900;1,100..900&display=swap');
 
 * {
     margin: 0;
@@ -9,9 +8,18 @@
 body {
     overflow-x: hidden;
 }
-pre,p,h1,h2,h3,h4,h5,h6{
+
+pre,
+p,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
     cursor: context-menu;
 }
+
 nav a,
 nav h5 {
     color: white;
@@ -33,7 +41,7 @@ nav {
 
 .nav {
     background-color: #1C1C1C;
-    
+
     width: 100vw;
     border: none;
 }
@@ -70,10 +78,12 @@ nav {
 .main1-left {
     width: 50vw;
 }
-.pointer{
+
+.pointer {
     cursor: pointer;
 }
-.context-menu{
+
+.context-menu {
     cursor: context-menu;
 }
 
@@ -175,9 +185,11 @@ nav {
     width: 30rem;
     height: auto;
 }
-.parallax button{
+
+.parallax button {
     min-width: 15rem;
 }
+
 .parralaxright {
     width: 40vw;
 }
@@ -205,14 +217,17 @@ nav {
     width: 50vw;
     white-space: pre-wrap;
 }
-button:hover{
+
+button:hover {
     transform: scale(1.05);
 }
+
 .section3 img {
     height: 10rem;
 }
 
-.section3>div>div>div>pre,.section3 >div>div pre{
+.section3>div>div>div>pre,
+.section3>div>div pre {
     width: 20rem;
 }
 
@@ -346,10 +361,10 @@ button:hover{
     height: 120vh;
     max-height: 46rem;
     margin-top: 8rem;
-    
+
 }
 
-.form{
+.form {
     height: 32rem;
     width: 26rem;
 }
@@ -401,9 +416,11 @@ footer img {
     width: 90vw;
     margin: auto;
 }
-.copyright pre{
+
+.copyright pre {
     white-space: pre-wrap;
 }
+
 .custom-shape-divider-top-1740764891 {
     position: absolute;
     top: 0;
@@ -424,157 +441,232 @@ footer img {
     fill: #FFFFFF;
 
 }
-.section1{
+
+.section1 {
     width: 100vw;
     height: 27rem;
     background-color: #1C1C1C;
-  
+
 }
-.cross,.menu{
+
+.cross,
+.menu {
     display: none;
     width: 2rem;
     height: auto;
 }
-.menu,.cross{
+
+.menu,
+.cross {
     position: absolute;
     right: 15px;
     top: 2.5rem;
 }
-@media (max-width:1015px){
-    .parallax img{
+
+.mainfooter a {
+    color: white;
+    text-decoration: none;
+}
+
+@media (max-width:1015px) {
+    .parallax img {
         display: none;
     }
-    .parallax pre{
+
+    .parallax pre {
         width: 80vw;
         text-align: center;
     }
-    .parralaxright{
+
+    .parralaxright {
         align-items: center;
         width: 100%;
     }
-    .row1{
+
+    .row1 {
         flex-direction: column;
         align-items: center;
     }
-    .main1-left{
+
+    .main1-left {
         display: flex;
         flex-direction: column;
         align-items: center;
     }
-    .main1-left pre,.main1-left p{
+
+    .main1-left pre,
+    .main1-left p {
         width: 80vw;
     }
 
-    .mainfooter{
+    .mainfooter {
         flex-direction: column;
         align-items: center;
         justify-content: center;
     }
-    footer{
-        height: 85rem;
+
+    footer {
+        height: 70rem;
     }
-    .subscribe{
+
+    .subscribe {
         display: flex;
         flex-direction: column;
         align-items: center;
         margin: 0;
     }
-    .row1{
+
+    .row1 {
         gap: 3rem;
     }
-   .card-container{
-    flex-direction: column;
-    align-items: center;
-   }
-   .copyright{
-    flex-direction: column;
-    align-items: center;
-   }
-   .section2head,.section3>pre,.section5>pre,.parallaxhead{
-    width: 90vw;
-   }
-   .parallaxhead{
-    font-size: larger;
-    line-height: 3rem;
-   }
-    .main1-left pre{
+
+    .card-container {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .copyright {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .section2head,
+    .section3>pre,
+    .section5>pre,
+    .parallaxhead {
+        width: 90vw;
+    }
+
+    .parallaxhead {
+        font-size: larger;
+        line-height: 3rem;
+    }
+
+    .main1-left pre {
         font-size: 2.5rem;
         text-align: center;
         line-height: 3rem;
     }
-    .section1{
+
+    .section1 {
         height: 37rem;
     }
-    .parallax{
-        height: 80vh;
-    }  
-    .nav nav{
-        height: 6rem;
-        margin-top:0;
+
+    .parallax {
+        height: 85vh;
     }
-    .subscribe form{
+
+    .nav nav {
+        height: 6rem;
+        margin-top: 0;
+    }
+
+    .subscribe form {
         display: flex;
         justify-content: center;
     }
-    .subscribe button{
+
+    .subscribe button {
         width: 8rem;
         padding: 0.8rem 0.7rem;
     }
 }
 
-@media (max-width:700px){
-    footer .contact{
+@media (max-width:700px) {
+    footer .contact {
         width: 100vw;
     }
+
     footer img {
-        width: 6rem;
+        width: 5.5rem;
         height: auto;
     }
-    .section1{
-        height: 38rem;
+
+    .section1 {
+        height: 45rem;
     }
-    .subscribe input{
-        width:14rem ;
+
+    .subscribe input {
+        width: 14rem;
     }
+
+    .contact pre {
+        font-size: 10px;
+    }
+
 }
-@media (max-width:550px){
-    .section3 div>div>div pre{
+
+@media (max-width:550px) {
+    .section3 div>div>div pre {
         max-width: 13.5rem;
-        line-height: 1.5rem;
+        line-height: 2rem;
     }
-    .section3 img{
+
+    .section3 img {
         max-width: 8rem;
         height: auto;
     }
-    .section1{
-        height: 50rem;
+
+    .section1 {
+        height: 55rem;
     }
-    .section1 video{
-        
-            width: 20rem;
-            height: auto;
-            
-        
+
+    .section1 video {
+
+        width: 20rem;
+        height: auto;
     }
-    nav a{
+
+    nav a {
         display: none;
     }
-    .menu{
+
+    .menu {
         display: block;
     }
-    nav{
+
+    nav {
         align-items: start;
     }
 }
 
-@media (max-height:500px){
-    .parallax{
-        height: 30rem;
-    }  
-    .section4{
-        height: 30rem;
+@media (max-height:500px) {
+    .parallax {
+        height: 35rem;
     }
-    .section6{
+
+    .section4 {
+        height: 33rem;
+    }
+
+    .section6 {
         height: 45rem;
+    }
+}
+
+@media (max-width:350px) {
+    .subscribe input {
+        width: 10rem;
+    }
+
+    .subscribe button {
+        width: 8rem;
+    }
+
+    .section3 div>div>div pre {
+        max-width: 10rem;
+
+    }
+
+    .section1 {
+        height: 55rem;
+    }
+
+    .parallax {
+        height: 50rem;
+    }
+
+    .section1 video {
+        width: 18rem;
     }
 }

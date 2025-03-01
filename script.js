@@ -16,25 +16,25 @@ document.addEventListener("DOMContentLoaded", function () {
     });
 });
 
-function down(){
-    document.getElementsByTagName("nav")[0].style.height="15rem"
-    document.getElementsByTagName("nav")[0].getElementsByClassName("menu")[0].style.display="none"
-    document.getElementsByTagName("nav")[0].getElementsByClassName("cross")[0].style.display="block"
-    document.querySelectorAll("a").forEach(function(val){
-        val.style.display="block"
+function down() {
+    document.getElementsByTagName("nav")[0].style.height = "15rem"
+    document.getElementsByTagName("nav")[0].getElementsByClassName("menu")[0].style.display = "none"
+    document.getElementsByTagName("nav")[0].getElementsByClassName("cross")[0].style.display = "block"
+    document.querySelectorAll("a").forEach(function (val) {
+        val.style.display = "block"
     })
-    document.getElementsByTagName("nav")[0].style.flexDirection="column"
+    document.getElementsByTagName("nav")[0].style.flexDirection = "column"
     document.getElementsByTagName("nav")[0].classList.remove("justify-content-between")
     document.getElementsByTagName("nav")[0].classList.add("justify-content-start")
-    document.getElementsByClassName("navlinks")[0].style.flexDirection="column"
+    document.getElementsByClassName("navlinks")[0].style.flexDirection = "column"
 
 }
-function up(){
-    document.getElementsByTagName("nav")[0].getElementsByClassName("menu")[0].style.display="block"
-    document.getElementsByTagName("nav")[0].getElementsByClassName("cross")[0].style.display="none"
-    document.getElementsByTagName("nav")[0].style.height="6rem"
-    document.getElementsByTagName("nav")[0].querySelectorAll("a").forEach(function(val){
-        val.style.display="none"
+function up() {
+    document.getElementsByTagName("nav")[0].getElementsByClassName("menu")[0].style.display = "block"
+    document.getElementsByTagName("nav")[0].getElementsByClassName("cross")[0].style.display = "none"
+    document.getElementsByTagName("nav")[0].style.height = "6rem"
+    document.getElementsByTagName("nav")[0].querySelectorAll("a").forEach(function (val) {
+        val.style.display = "none"
     })
 
 }
